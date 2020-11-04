@@ -1,0 +1,315 @@
+.nav-res{
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    min-height: 10vh;
+    min-width: 10vh;
+    /* background-color: rgb(8, 44, 56); */
+    background-color: rgb(22, 136, 173);
+    color: whitesmoke;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font: bolder;
+}
+
+.title-look{
+    color: rgb(87, 127, 214);
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    font: bolder;
+}
+
+.nav-button{
+    position: absolute;
+  left: 150px;
+  width: 200px;
+  height: 120px;
+  border: 3px solid green;
+}
+
+.inline-button{
+    position: absolute;
+  left: 150px;
+  width: 200px;
+  height: 120px;
+  border: 3px solid green;
+}
+
+
+.nav-links{
+
+    width: 40%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    list-style: circle;
+    margin: 40px;
+}
+
+.report-links{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    position: absolute;
+    right: 00px;
+    width: 200px;
+    height: 130px;
+    padding: 1em 1.5em;
+    /* cursor: pointer;  */
+ color: rgb(9, 94, 128);
+  text-decoration: none;
+  text-transform: uppercase;
+  /* color: whitesmoke; */
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font: bolder;
+}
+
+.app {
+
+    align-content: center;
+    justify-content: center;
+    
+}
+
+.comp-page {
+    text-align: flex-start;
+    font-family: monospace;
+    margin: 0 auto;
+}
+
+
+.nav-res{
+
+    text-align: center;
+ 
+}
+
+.staff-det {
+
+    text-align: center;
+    font-family: monospace;
+   
+
+}
+
+.rel-cers {
+
+    text-align: center;
+    font-family: monospace;
+    
+
+}
+
+.res-allo {
+
+    text-align: center;
+    font-family: monospace;
+   
+
+}
+
+.Nav-links {
+
+    text-align: center;
+   
+}
+
+.myHome {
+
+    text-align: center;
+}
+
+.add-comp {
+
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 20px auto auto -60px;
+}
+
+.submit-addcomp{
+    text-align: flex-start;
+    font-family: monospace;
+    margin: 0 auto;
+
+}
+
+.qe-name {
+    display: inline-block;
+}
+.d-inline-block_bg-primary_text-white{
+    display: inline-block;
+    width: 220px;
+    text-align: center;
+}
+
+label{
+    margin:15px;
+    width: 180px;
+    text-align: left;
+
+}
+.dropdown{
+    display: flex;
+    align-items: initial;
+}
+.MuiFormControl-root{
+    
+    height: 40px;
+    
+}
+.MuiFormLabel-root{
+     margin-top: -10px;
+}
+.MuiAutocomplete-root{
+    width: 300px;
+    height: 40px;
+}
+.MuiInputBase-input{
+    margin-top: -5px;
+}
+.MuiAutocomplete-endAdornment{
+    margin-top: -10px;
+}
+/*Text after Selection*/
+#combo-box-demo{
+    margin-top: -10px;
+    padding-left: 7px;
+    
+   
+}
+.MuiOutlinedInput-notchedOutline{
+    height: 38px;
+    width: 100%;
+}s
+
+/*Dropdown icon*/
+.MuiSvgIcon-root{
+   padding-top: 5px;
+}
+
+
+/* This is for transform and need to check
+.MuiInputLabel-outlined.MuiInputLabel-shrink
+{
+    transform: translate(1px, -4px) scale(0.65);
+}*/
+
+/*Styling for update competency*/
+.update_competency_search-filter{
+    display: inline-block;
+    width: 220px;
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.update_competency_search_container
+{
+    width: 100%;
+    height: 100px;
+    /* border: 0.1px; */
+    border-style:solid;
+    align-items: flex-start;
+    padding: auto;
+    background-color: #ffffff;
+    /* border-color: #000000; */
+    /* margin: 30px auto auto; */
+    /* margin-left: 0px; */
+    /* border-radius: 10px; */
+}
+
+.update_competency_search-filter_container
+{
+    width: 150%; 
+    margin: auto;
+    margin-left: 0px;
+    align-items: flex-start;
+}
+
+/* Table Styling*/ 
+table {
+    font-family: "Montserrat", sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    align-content: flex-start;
+    border-radius: 6px;
+    margin-left: 0px;
+    text-align: flex-start;
+  }
+  td,th
+   {
+    border: 1px solid black;
+    padding: 8px;
+    width: 150px;
+  }
+  th {
+    /* background-color: #3d7cdc; */
+    background-color: rgb(22, 136, 173);
+    width: 230px;
+    border-radius: 3px;
+    text-align: center;
+    color: ivory;
+
+  }
+  td {
+    background-color: #dbdbdb;
+    border-radius: 3px;
+    text-align: center;
+  }
+  .tablecontainer {
+    /* display: grid; */
+    /* grid: 200px / auto auto auto;     */
+    margin-top: 10px;
+  }
+
+.fieldsize {
+    display: inline-block;
+    width: 250px;
+    text-align: center;
+  }
+
+  .card {
+    
+    display: inline-block;
+    /* text-align: center; */
+    width: 780px;
+}
+
+#title {
+    text-align: center;
+    font-family: arial, sans-serif;
+  }
+  
+  #records {
+    text-align: center;
+    /* font-family: "Trebuchet MS", Arial, Helvetica, sans-serif; */
+    border-collapse: collapse;
+    border: 2px solid #ddd;
+    
+    width: 100%;
+  }
+  
+  #records td, #records th {
+    border: 1px solid #ddd;
+    padding-top: 1px;
+    padding-bottom: 1px;
+  }
+  
+  #records tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #records tr:hover {background-color: #ddd;}
+  
+  #records th {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-align: center;
+    background-color:  rgb(22, 136, 173);
+    color: white;
+  }
+  
+  .tableHeaders
+  {
+    background-color:  rgb(22, 136, 173);
+    color: white;
+  }
